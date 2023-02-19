@@ -1,0 +1,304 @@
+body {
+  background-color: #f8f8f8;
+  background-image: url('https://gttp.imgix.net/224601/x/0/tulang-diot-1139729483.jpg');
+  background-position: center;
+  background-size: cover;
+}
+header {
+  background-color: #ffffff07;
+  background-image: url('https://madmonkeyhostels.com/wp-content/uploads/2019/07/Mad-Monkey-Hostels-6-Must-See-Historical-Landmarks-in-Cebu-scaled.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 60px;
+}
+
+.header-logo {
+  color: #000000;
+  margin: 0;
+}
+
+.header-subtitle {
+  color: #000000;
+  margin: 10px 0 0 0;
+  padding: 1px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 10px;
+  color: #333;
+  font-size: 18px;
+}
+
+#about, #spots, #festivals {
+  margin-top: 30px;
+  position: relative;
+  text-align: center;
+}
+
+#about img {
+  display: block;
+  margin: 0 auto;
+  animation: zoom-in 1s ease;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+#about {
+  width: 1400px;
+  margin: 50px;
+  background-color: #b7bbbb00;
+  background-image: url('https://www.travelingcebu.com/images/cclexdotcomph-photo.jpeg');
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  padding: 60px 0;
+}
+
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.about {
+  width: 400px;
+  margin: 400px;
+}
+
+.about-image {
+  height: 300px;
+  overflow: hidden;
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-title {
+  margin: 20px 0 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-description {
+  margin: 0 20px 20px 20px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#tourist-spots {
+  background-color: #b7bbbb00;
+  padding: 60px 0;
+}
+
+.spot-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.spot {
+  background-color: #b7bbbb;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.spot:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.spot-image {
+  height: 200px;
+  overflow: hidden;
+}
+
+.spot-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.spot-title {
+  margin: 20px 0 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.spot-description {
+  margin: 0 20px 20px 20px;
+  text-align: justify;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+#festivals {
+  padding: 60px 0;
+}
+
+.festival-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.festival {
+  background-color: #b7bbbb;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.festival:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.festival-image {
+  height: 200px;
+  overflow: hidden;
+}
+.festival-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+
+html {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 30px;
+  }
+  .header-logo {
+    font-size: 32px;
+  }
+  .header-subtitle {
+    font-size: 18px;
+  }
+  nav {
+    top: 20px;
+    right: 20px;
+  }
+  nav a {
+    margin: 10px 5px;
+  }
+  #about {
+    width: auto;
+    margin: 20px;
+  }
+  .about {
+    width: 100%;
+  }
+  .spot-section {
+    justify-content: center;
+  }
+  .spot {
+    width: 100%;
+  }
+  .festival-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .festival {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+
+@media screen and (min-width: 769px) {
+  header {
+    padding: 60px;
+  }
+  .header-logo {
+    font-size: 48px;
+  }
+  .header-subtitle {
+    font-size: 24px;
+  }
+  nav {
+    top: 50px;
+    right: 100px;
+  }
+  nav a {
+    margin: 0 10px;
+  }
+  #about {
+    width: 1400px;
+    margin: 50px;
+  }
+  .about {
+    width: 400px;
+  }
+  .spot-section {
+    justify-content: flex-start;
+  }
+  .spot {
+    width: 300px;
+  }
+  .festival-section {
+    justify-content: space-between;
+  }
+  .festival {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+  }
+}
